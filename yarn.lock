@@ -3060,6 +3060,13 @@
   "resolved" "https://npm.corp.kuaishou.com/@types%2fqs/-/qs-6.9.6.tgz"
   "version" "6.9.6"
 
+"@types/react-dom@^17.0.11":
+  "integrity" "sha1-4ercPF6GvbX3aE4AJ0riKOe8xGY="
+  "resolved" "https://npm.corp.kuaishou.com/@types%2freact-dom/-/react-dom-17.0.11.tgz"
+  "version" "17.0.11"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-syntax-highlighter@11.0.5":
   "integrity" "sha512-VIOi9i2Oj5XsmWWoB72p3KlZoEbdRAcechJa8Ztebw7bDl2YmR+odxIqhtJGp1q2EozHs02US+gzxJ9nuf56qg== sha1-DVRiYbQCHh+dhbUEAcCkKssQYIc="
   "resolved" "https://npm.corp.kuaishou.com/@types%2freact-syntax-highlighter/-/react-syntax-highlighter-11.0.5.tgz"
@@ -14184,7 +14191,7 @@
   "resolved" "https://npm.corp.kuaishou.com/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typescript@^3.2.1 || ^4", "typescript@>= 3.x", "typescript@>= 4.3.x", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+"typescript@^3.2.1 || ^4", "typescript@^4.5.4", "typescript@>= 3.x", "typescript@>= 4.3.x", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
   "integrity" "sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg=="
   "resolved" "https://npm.corp.kuaishou.com/typescript/-/typescript-4.5.4.tgz"
   "version" "4.5.4"
