@@ -2,7 +2,7 @@
  * @Author: yangyuan
  * @Description: 
  * @Date: 2021-12-16 18:33:48
- * @LastEditTime: 2021-12-23 14:23:22
+ * @LastEditTime: 2021-12-30 14:55:19
  */
 import React from 'react';
 import { Header } from './Header';
@@ -13,16 +13,16 @@ interface PageProps {
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
-}
+}  
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) => (
   <article>
     <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
 
     <section>
-      <h2>Pages in Stasforybook</h2>
+      <h2>Pages in ininin</h2>
       <p>
-        We recommend building UIs with a{' '}
+        We buildin  g UIs with a{' '}
         <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
           <strong>composadfnent-driven</strong>
         </a>{' '}
@@ -55,6 +55,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }: PageProps) =>
         <span className="tip">Tip</span> Adjust the width of the canvas with the{' '}
         Viewports addon in the toolbar
       </div>
+      <img src="" />
     </section>
   </article>
 );
